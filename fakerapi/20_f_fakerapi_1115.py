@@ -8,6 +8,8 @@
 # store list 20,30,40 대 모두 같음
 # final_for_fakerapi_doc.xlsx 참고
 
+
+
 import pandas as pd  # 데이터 처리를 위한 pandas 라이브러리
 from faker import Faker  # 가짜 데이터 생성을 위한 Faker 라이브러리
 import random  # 난수 생성을 위한 random 라이브러리
@@ -24,7 +26,7 @@ yearrange = 5 # 생성할 데이터의 연도 범위
 age=20
 
 mf="f"
-savepath = f"DATA/fakerapi/{age}_{mf}_fakerapi_{datetime.today().strftime('%Y-%m-%d')}.csv"  # 저장할 파일 경로
+savepath = f"DATA/woori_fisa_final_python/csvfile/{age}_{mf}_fakerapi_{datetime.today().strftime('%Y-%m-%d')}.csv"  # 저장할 파일 경로
 
 
 
@@ -170,7 +172,7 @@ def generate_expense_data(num_records=20000):
 
     }
     
-    
+
     data = []
 
     remaining_records = num_records
