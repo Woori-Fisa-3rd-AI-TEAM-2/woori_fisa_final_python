@@ -170,6 +170,7 @@ def generate_expense_data(num_records=20000):
 
     }
     
+    
     data = []
 
     remaining_records = num_records
